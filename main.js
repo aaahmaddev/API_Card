@@ -1,5 +1,4 @@
 var cats = [];
-
 const url = 'https://cataas.com/api/cats?limit=10&skip=0';
 fetch(url)
     .then(response => response.json()) 
