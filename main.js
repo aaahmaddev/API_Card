@@ -17,6 +17,10 @@ setTimeout(() => {
         const pElement = document.createElement("img");
         pElement.src = 'https://cataas.com/cat/' + cat._id;
 
+        pElement.style.width = '50vh';
+        pElement.style.height = '50vh';
+        pElement.style.margin = '20px auto';
+        pElement.style.borderRadius = '10%';
         
         bodyElement.appendChild(pElement);
         
